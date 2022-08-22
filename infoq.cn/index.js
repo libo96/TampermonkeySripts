@@ -29,6 +29,12 @@
             e3.remove() // 移除悬浮方框
         }
 
+        var e4=document.querySelector("#layout > div.inner-content > div.widget-slide-weekly")
+
+        if(e4 != undefined){
+            e4.remove();
+        }
+
         document.querySelector("#layout > div.live-fixed-bar > div.live-bar > div > div").remove();
          document.querySelector("#layout > div.inner-content.had-notice > div.widget-slide-weekly").remove();       // 移除个人介绍栏
         document.querySelector("#layout > div.live-fixed-bar").remove();   // 删除侧边栏滚动条
