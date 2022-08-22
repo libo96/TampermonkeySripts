@@ -14,11 +14,27 @@
     'use strict';
 
     setInterval(function(){
+        var e = document.querySelector("#layout > div.live-fixed-bar")
+        if(e != undefined){
+            e.remove();
+        }
+
+        var e2=document.querySelector("#layout > div.inner-content > div.page-home.layout-content > div.sidebar")
+        if(e2 != undefined){
+            e2.remove();   // 移除侧边栏
+        }
+
+        var e3 = document.querySelector("#layout > div.inner-content > div.ActivityFloatImg_float-image_2kMyt")
+        if(e3 != undefined){
+            e3.remove() // 移除悬浮方框
+        }
+
+        document.querySelector("#layout > div.live-fixed-bar > div.live-bar > div > div").remove();
          document.querySelector("#layout > div.inner-content.had-notice > div.widget-slide-weekly").remove();       // 移除个人介绍栏
         document.querySelector("#layout > div.live-fixed-bar").remove();   // 删除侧边栏滚动条
-         document.querySelector("#layout > div.inner-content > div.page-home.layout-content > div.sidebar").remove();   // 移除侧边栏
+         
         document.querySelector("#layout > div.header.common-header-pc.layout-header > div.layout-content.header-content > div.message").remove();   // 移除消息栏，通知小红标
-        document.querySelector("#layout > div.inner-content > div.ActivityFloatImg_float-image_2kMyt").remove();    // 移除悬浮方框
+        
 
 
     }, 2000 );
