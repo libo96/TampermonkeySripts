@@ -34,6 +34,11 @@
         if(e4 != undefined){
             e4.remove();
         }
+        
+        var square = document.querySelector("#layout > div.inner-content > div.ActivityFloatImg_float-image_2kMyt")
+        if(square != undefined){
+            square.remove()
+        }
 
         document.querySelector("#layout > div.live-fixed-bar > div.live-bar > div > div").remove();
          document.querySelector("#layout > div.inner-content.had-notice > div.widget-slide-weekly").remove();       // 移除个人介绍栏
