@@ -39,6 +39,11 @@
         if(square != undefined){
             square.remove()
         }
+        
+        var head = document.querySelector("#layout > div.common-header-wap > div.header-container")
+        if(head != undefined){
+            head.remove()
+        }
 
         document.querySelector("#layout > div.live-fixed-bar > div.live-bar > div > div").remove();
          document.querySelector("#layout > div.inner-content.had-notice > div.widget-slide-weekly").remove();       // 移除个人介绍栏
