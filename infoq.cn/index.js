@@ -56,7 +56,13 @@
         if(message != undefined){
             message.remove()
         }
+        
+        var articleMsg = document.querySelector("#layout > div.layout-header-wrap > div > div.header > div.wrap > div > div.header-middle > div.message")
 
+        if(articleMsg != undefined){
+            articleMsg.remove()
+        }
+        
         document.querySelector("#layout > div.live-fixed-bar > div.live-bar > div > div").remove();
          document.querySelector("#layout > div.inner-content.had-notice > div.widget-slide-weekly").remove();       // 移除个人介绍栏
         document.querySelector("#layout > div.live-fixed-bar").remove();   // 删除侧边栏滚动条
