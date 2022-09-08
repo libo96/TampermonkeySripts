@@ -44,6 +44,12 @@
         if(head != undefined){
             head.remove()
         }
+        
+        var headNotice = document.querySelector("#layout > div.header.common-header-pc.layout-header.had-notice > div.header-notice")
+        
+        if(headNotice != undefined){
+            headNotice.remove()
+        }
 
         document.querySelector("#layout > div.live-fixed-bar > div.live-bar > div > div").remove();
          document.querySelector("#layout > div.inner-content.had-notice > div.widget-slide-weekly").remove();       // 移除个人介绍栏
