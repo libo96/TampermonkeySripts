@@ -50,6 +50,12 @@
         if(headNotice != undefined){
             headNotice.remove()
         }
+        
+        var message = document.querySelector("#layout > div.header.common-header-pc.layout-header.had-notice > div.layout-content.header-content > div.message")
+        
+        if(message != undefined){
+            message.remove()
+        }
 
         document.querySelector("#layout > div.live-fixed-bar > div.live-bar > div > div").remove();
          document.querySelector("#layout > div.inner-content.had-notice > div.widget-slide-weekly").remove();       // 移除个人介绍栏
