@@ -1,8 +1,4 @@
 # Tampermonkey Scripts
 
-some simple tampermonkey scripts
+some simple tampermonkey scripts for blocking infoq.cn ads or info msg box
 
-<iframe src="https://www.baidu.com" marginheight="50">
-您的浏览器不支持 iframes 。
-
-</iframe>
